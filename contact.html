@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Me</title>
+    <link href="css/contact.css" rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <!-- 여기에 직접 네비게이션/헤더 HTML 넣기 -->
+</header>
+
+<section class="contact-section">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required>G'day YOYO,</textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="responseMsg" style="margin-top: 10px; color: green;"></div>
+</section>
+
+</body>
+</html>
