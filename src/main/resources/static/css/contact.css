@@ -1,0 +1,82 @@
+/* 전체 페이지 배경색 및 폰트 설정 */
+body {
+  background: linear-gradient(135deg, #e0e7ff, #f8f9fa);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact Section Container */
+.contact-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 25px; /* 위아래 padding 살짝 키움 */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: inherit;
+}
+
+/* 제목 스타일 */
+.contact-section h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* 라벨 스타일 */
+.contact-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* 입력창 스타일 */
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.contact-section input[type="text"]:focus,
+.contact-section input[type="email"]:focus,
+.contact-section textarea:focus {
+  border-color: #4c6ef5;
+  outline: none;
+  box-shadow: 0 0 8px #4c6ef5aa;
+}
+
+/* textarea 높이 조절 */
+.contact-section textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* 버튼 스타일 */
+.contact-section button {
+  display: block;
+  width: 100%;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  padding: 14px 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.contact-section button:hover {
+  background-color: #3b5bdb;
+}
